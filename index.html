@@ -26,7 +26,8 @@
     <header class="p-5 mb-4 border-5 border-bottom border-dark text-center">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+    <!-- Display current day/time -->
+        <p id="current-time-display" class="lead"></p>
     </header>
     <div class="container-lg px-5">
       <!-- Use class for "past", "present", and "future" to apply styles to the
@@ -126,7 +127,11 @@
       integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
       crossorigin="anonymous"
     ></script>
-
+    <!-- Advanced Format Plugin for 1st/2nd/3rd/ect using 'Do' -->
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/plugin/advancedFormat.js"></script>
+    <!-- Add-on/Activate plugin -->
+    <script>dayjs.extend(window.dayjs_plugin_advancedFormat)</script>    
+    <!-- Main JS file -->
     <script src="./assets/script.js"></script>
   </body>
 </html>
