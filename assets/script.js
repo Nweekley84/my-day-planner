@@ -26,7 +26,9 @@ $( document ).ready(function() {
 
     // handle displaying the time
     function displayTime() {
-     var rightNow = dayjs().format('dddd, MMMM Do');
+     var rightNow = dayjs().format('dddd, MMMM Do'); // advanced formatting
+
+     
      timeDisplayEl.text(rightNow);
      }
 
