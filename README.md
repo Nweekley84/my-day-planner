@@ -1,12 +1,12 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # Nate's My Day Planner
-> Use starter code to complete a work day scheduler
-> Must display current day at top of calendar
-> Must use timeblocks for standard business hours
-> Must color code timeblocks past/present/future
-> Must be able to enter events
-> Save buttons must store to local storage
-> Must display saved local storage strings upon refresh
+> Use starter code to complete a work day scheduler.
+> Must display current day at top of calendar.
+> Must use timeblocks for standard business hours.
+> Must color code timeblocks past/present/future.
+> Must be able to enter events.
+> Save buttons must store to local storage.
+> Must display saved local storage strings upon refresh.
 > Live demo [_here_](https://nweekley84.github.io/my-day-planner/).
 
 ## Table of Contents
