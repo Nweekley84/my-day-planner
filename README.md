@@ -1,5 +1,5 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-# Nate's Javascript Quiz v1.0
+# Nate's My Day Planner
 > Use starter code to complete a work day scheduler
 > Must display current day at top of calendar
 > Must use timeblocks for standard business hours
