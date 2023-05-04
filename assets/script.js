@@ -1,38 +1,79 @@
-// important DOM elements
-var timeDisplayEl = $('#current-time-display');
+// Header date display variable
+var dateDisplayEl = $('#current-date-display');
 
-// Call JQuery to ensure DOM is 'ready' first before code
-$( document ).ready(function() {
+// Wrap DOM in a Call to JQuery to ensure DOM is 'ready' before launching code
+$(document).ready(function() {
     console.log( "DOM is ready!" );
 
-    $(function () {
+    $(function () { 
 
-    // TODO: Add a listener for click events on the save button. This code should
-    // use the id in the containing time-block as a key to save the user input in
-    // local storage. HINT: What does `this` reference in the click listener
-    // function? How can DOM traversal be used to get the "hour-x" id of the
-    // time-block containing the button that was clicked? How might the id be
-    // useful when saving the description in local storage?
-    //
-    // TODO: Add code to apply the past, present, or future class to each time
-    // block by comparing the id to the current hour. HINTS: How can the id
-    // attribute of each time-block be used to conditionally add or remove the
-    // past, present, and future classes? How can Day.js be used to get the
-    // current hour in 24-hour time?
-    //
-    // TODO: Add code to get any user input that was saved in localStorage and set
-    // the values of the corresponding textarea elements. HINT: How can the id
-    // attribute of each time-block be used to do this?
+        function createTimeBlocks() {
+            const now = dayjs();
+            const currentHour = now.hour();
+            const containerEl = $(".container-lg"); // Div class holding everything
+            containerEl.empty();
+      
+            for (let hour = 9; hour <= 17; hour++) { // Array for 9-5, use military time 24 hrs
+                let timeBlockStatus = ""; // To be determined below
+                
+                if (hour < currentHour) { // Determine past/present/future status'
+                    timeBlockStatus = "past";
+                } else if (hour === currentHour) {
+                    timeBlockStatus = "present";
+                } else {
+                    timeBlockStatus = "future";
+                }
+                
+                const hourLabel = hour > 12 ? `${hour - 12}PM` : hour === 12 ? `${hour}PM` : `${hour}AM`; // Sets the AM/PM stuff
+                const id = `hour-${hour}`; // sets current time for time-block
+                let event = getSavedTimeBlock(id); // pull from local storage
+      
+                // Create the time-block with label and events
+                const timeBlock = `
+                <div id="${id}" class="row time-block ${timeBlockStatus}">
+                <div class="col-2 col-md-1 hour text-center py-3">${hourLabel}</div>
+                <textarea class="col-8 col-md-10 event" rows="3">${event}</textarea>
+                <button class="btn saveBtn col-2 col-md-1" aria-label="save">
+                    <i class="fas fa-save" aria-hidden="true"></i>
+                </button>
+                </div>
+                `;
+                containerEl.append(timeBlock); // Add time-blocks to container
+            }
+      
+            const timeRemaining = 60 - Number(now.minute()); // update timeblocks in REALTIME
+            
+            setTimeout(createTimeBlocks, timeRemaining * 1000 * 60);// If a new hour has started, refresh the time blocks
+        }
 
-    // handle displaying the time
-    function displayTime() {
-     var rightNow = dayjs().format('dddd, MMMM Do'); // advanced formatting
+        function onSaveClick(e) { // Save block id & events to LS
+            const saveButton = $(this);
+            const timeBlockId = saveButton.closest(".time-block").attr("id"); // time-block id
+            const event = $.trim(saveButton.siblings("textarea").val()); // get event info
+      
+            if (event === "") { // If event is empty, delete from local storage
+                localStorage.removeItem(timeBlockId);
+                return;
+            }
+      
+            const itemToSave = { // Save to local storage using JSON
+                event: event,};
+            localStorage.setItem(timeBlockId, JSON.stringify(itemToSave));
+        };
+      
+        function getSavedTimeBlock(timeBlockId) { // Get current hour from LS
+            const savedItem = localStorage.getItem(timeBlockId);
+            return savedItem ? JSON.parse(savedItem).event : ""; // If empty, return empty string, else display event
+        }
 
-     
-     timeDisplayEl.text(rightNow);
+    function displayDate() { // handle displaying the current date in header
+     var rightNow = dayjs().format('dddd, MMMM Do'); // advanced formatting 'Do'
+     dateDisplayEl.text(rightNow);
      }
 
-    displayTime(); // show date
-    setInterval(displayTime, 1000);
+    displayDate(); // show date in header
+    createTimeBlocks(); // self explanitory
+    $(".saveBtn").on("click", onSaveClick); // save button click action
+
   });
 });
