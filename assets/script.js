@@ -1,10 +1,6 @@
-// Wrap DOM in a Call to JQuery to ensure DOM is 'ready' before launching code
-$(document).ready(function() {
-    console.log("DOM is ready!");
-
+$(document).ready(function() { // Wrap DOM in a Call to JQuery to ensure DOM is 'ready' before launching code
     $(function () { 
-    // Header date display variable
-    var dateDisplayEl = $('#current-date-display');
+        var dateDisplayEl = $('#current-date-display'); // Header date display variable
 
         function createTimeBlocks() { // Create 8 timeblocks in container-lg
             const now = dayjs();
@@ -27,7 +23,7 @@ $(document).ready(function() {
                 const id = `hour-${hour}`; // sets current time for time-block
                 let event = getSavedTimeBlock(id); // pull from local storage
       
-                // Create the time-blocks with label and events
+                // Create the time-blocks with label and events (copied from index.html starter code)
                 const timeBlock = `
                 <div id="${id}" class="row time-block ${timeBlockStatus}">
                 <div class="col-2 col-md-1 hour text-center py-3">${hourLabel}</div>
@@ -41,7 +37,6 @@ $(document).ready(function() {
             }
       
             const timeRemaining = 60 - Number(now.minute()); // update timeblocks in REALTIME
-            
             setTimeout(createTimeBlocks, timeRemaining * 1000 * 60);// If a new hour has started, refresh the time blocks
         }
 
@@ -73,6 +68,6 @@ $(document).ready(function() {
     displayDate(); // show date in header
     createTimeBlocks(); // self explanitory
     $(".saveBtn").on("click", onSaveClick); // save button click action
-
   });
+  console.log("DOM is ready!"); // DOM loaded, safe to run code now
 });
