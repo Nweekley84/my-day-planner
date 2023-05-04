@@ -30,7 +30,7 @@
 
 
 ## Technologies Used
-- VSCode 1.76.2
+- VSCode 1.77.3
 - Chrome Dev Tools 112.0.5615.121 
 - macOS Mojave 10.14.6 
 

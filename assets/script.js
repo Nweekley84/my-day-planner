@@ -1,13 +1,12 @@
-// Header date display variable
-var dateDisplayEl = $('#current-date-display');
-
 // Wrap DOM in a Call to JQuery to ensure DOM is 'ready' before launching code
 $(document).ready(function() {
-    console.log( "DOM is ready!" );
+    console.log("DOM is ready!");
 
     $(function () { 
+    // Header date display variable
+    var dateDisplayEl = $('#current-date-display');
 
-        function createTimeBlocks() {
+        function createTimeBlocks() { // Create 8 timeblocks in container-lg
             const now = dayjs();
             const currentHour = now.hour();
             const containerEl = $(".container-lg"); // Div class holding everything
@@ -28,7 +27,7 @@ $(document).ready(function() {
                 const id = `hour-${hour}`; // sets current time for time-block
                 let event = getSavedTimeBlock(id); // pull from local storage
       
-                // Create the time-block with label and events
+                // Create the time-blocks with label and events
                 const timeBlock = `
                 <div id="${id}" class="row time-block ${timeBlockStatus}">
                 <div class="col-2 col-md-1 hour text-center py-3">${hourLabel}</div>
