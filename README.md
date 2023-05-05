@@ -82,7 +82,7 @@ To do:
 
 
 ---
-## <img src="https://icon-library.com/images/license-icon/license-icon-17.jpg" width="28">License
+## <img src="https://icon-library.com/images/license-icon/license-icon-17.jpg" width="28"> License
 This project is [MIT](https://opensource.org/licenses/MIT) licensed.
 
 © 2023 [Nathan Weekley](mailto:nweekley27@gmail.com) 
