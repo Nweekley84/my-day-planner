@@ -71,7 +71,7 @@ To do:
 
 ## Acknowledgements
 - This project was inspired by starter code provided via UCSD Full Stack Coding Bootcamp.
-- Many thanks always to MDN Web Docs, Stackoverflow, Google, YouTube and ChatGPT.
+- Many thanks always to [MDN Web Docs](https://developer.mozilla.org/en-US/), [Stackoverflow](https://stackoverflow.com/), [Google](https://www.google.com/), [YouTube](https://www.youtube.com/) and [ChatGPT](https://chat.openai.com/).
 
 
 ## Contact
