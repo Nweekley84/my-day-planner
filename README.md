@@ -33,7 +33,7 @@
 
 ## Technologies Used
 - [![Chrome Dev Tools 112.0.5615.121](https://img.shields.io/badge/Chrome-112.0.5615.121-blue?logo=googlechrome)](https://developer.chrome.com/tags/new-in-devtools/) 
-- [![VSCode 1.77.3](https://img.shields.io/badge/VSCode-v1.77.3-blue?logo=visualstudiocode)](https://code.visualstudio.com/updates/v1_78)
+- [![VSCode 1.77.3](https://img.shields.io/badge/VSCode-1.77.3-blue?logo=visualstudiocode)](https://code.visualstudio.com/updates/v1_78)
 - [![macOS Mojave 10.14.6](https://img.shields.io/badge/Mojave-10.14.6-blue?logo=macos)](https://support.apple.com/kb/DL2011?locale=en_US) 
 
 
@@ -57,7 +57,7 @@
 To organize your daily events for work.
 
 ## Project Status
-![project status](https://img.shields.io/badge/Progress-100%-brightgreen)
+![project status](https://img.shields.io/badge/Completed&nbsp;100%-brightgreen)
 
 ## Room for Improvement
 - Expand the day planner into a full week, month, or even a year.
