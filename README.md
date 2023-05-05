@@ -22,7 +22,6 @@
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
-* [Contact](#contact)
 * [License](#license)
 
 ---
@@ -83,9 +82,7 @@ To do:
 
 ---
 ## <img src="https://icon-library.com/images/license-icon/license-icon-17.jpg" width="28"> License
-This project is [MIT](https://opensource.org/licenses/MIT) licensed.
-
-© 2023 [Nathan Weekley](mailto:nweekley27@gmail.com) 
+This project is [MIT](https://opensource.org/licenses/MIT) licensed. <br>© 2023 [Nathan Weekley](mailto:nweekley27@gmail.com) 
 
 ---
 <div align="center">
