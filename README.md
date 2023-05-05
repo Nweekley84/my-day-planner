@@ -1,5 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Nweekley84/my-day-planner)
+![GitHub top language](https://img.shields.io/github/languages/top/Nweekley84/my-day-planner)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Nweekley84/my-day-planner)
 # Nate's My Day Planner
 > Use starter code to complete a work day scheduler.
@@ -64,15 +65,20 @@ Project is: / _complete_ /
 
 
 ## Room for Improvement
-Room for improvement:
-- Expand the day planner into a full week, month, or year.
+- Expand the day planner into a full week, month, or even a year.
 
 To do:
 - All required tasks completed.
 
 ## Acknowledgements
 - This project was inspired by starter code provided via UCSD Full Stack Coding Bootcamp.
-- Many thanks always to [MDN Web Docs](https://developer.mozilla.org/en-US/), [Stackoverflow](https://stackoverflow.com/), [Google](https://www.google.com/), [YouTube](https://www.youtube.com/) and [ChatGPT](https://chat.openai.com/).
+
+## Resources:
+- [MDN Web Docs](https://developer.mozilla.org/en-US/)
+- [Stackoverflow](https://stackoverflow.com/)
+- [Google](https://www.google.com/)
+- [YouTube](https://www.youtube.com/) 
+- [ChatGPT](https://chat.openai.com/)
 
 
 ## Contact
