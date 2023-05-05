@@ -70,10 +70,9 @@ To do:
 
 ## Resources
 - [![MDN Web Docs](https://img.shields.io/badge/MDN&nbsp;Web&nbsp;Docs-grey?logo=mdnwebdocs&logoColor=blue)](https://developer.mozilla.org/en-US/)
-- [Stackoverflow](https://stackoverflow.com/)
-- [Google](https://www.google.com/)
-- [YouTube](https://www.youtube.com/) 
-- [ChatGPT](https://chat.openai.com/)
+- [![Stackoverflow](https://img.shields.io/badge/Stack&nbsp;Overflow-grey?logo=stackoverflow&logoColor=orange)](https://stackoverflow.com/)
+- [![Google](https://img.shields.io/badge/Google-grey?logo=google&logoColor=green)](https://www.google.com/)
+- [![Youtube](https://img.shields.io/badge/Youtube-grey?logo=youtube&logoColor=red)](https://www.google.com/)
 
 ## <img src="https://icon-library.com/images/license-icon/license-icon-17.jpg" width="28"> License
 This project is [MIT](https://opensource.org/licenses/MIT) licensed. <br>© 2023 [Nathan Weekley](mailto:nweekley27@gmail.com) 
