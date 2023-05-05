@@ -57,7 +57,7 @@
 To organize your daily events for work.
 
 ## Project Status
-![project status](https://img.shields.io/badge/%%20Progress-100-brightgreen)
+![project status](https://img.shields.io/badge/Progress&nbsp;%-100-brightgreen)
 
 ## Room for Improvement
 - Expand the day planner into a full week, month, or even a year.
