@@ -1,4 +1,5 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![GitHub repo size](https://img.shields.io/github/repo-size/Nweekley84/my-day-planner)
 # Nate's My Day Planner
 > Use starter code to complete a work day scheduler.
 > Must display current day at top of calendar.
@@ -30,9 +31,9 @@
 
 
 ## Technologies Used
-- VSCode 1.77.3
-- Chrome Dev Tools 112.0.5615.121 
-- macOS Mojave 10.14.6 
+- [VSCode 1.77.3](https://code.visualstudio.com/updates/v1_78)
+- [Chrome Dev Tools 112.0.5615.121](https://developer.chrome.com/tags/new-in-devtools/) 
+- [macOS Mojave 10.14.6](https://support.apple.com/kb/DL2011?locale=en_US) 
 
 
 ## Features
@@ -63,10 +64,10 @@ Project is: / _complete_ /
 
 ## Room for Improvement
 Room for improvement:
-- None?
+- Expand the day planner into a full week, month, or year.
 
 To do:
-- Nothing.
+- All required tasks completed.
 
 ## Acknowledgements
 - This project was inspired by starter code provided via UCSD Full Stack Coding Bootcamp.
