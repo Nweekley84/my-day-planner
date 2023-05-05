@@ -1,5 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Nweekley84/my-day-planner)
+![GitHub last commit](https://img.shields.io/github/last-commit/Nweekley84/my-day-planner)
 # Nate's My Day Planner
 > Use starter code to complete a work day scheduler.
 > Must display current day at top of calendar.
