@@ -75,7 +75,7 @@ To do:
 
 
 ## Contact
-Created by [Nathan Weekley](mailto:nweekley84@gmail.com) - feel free to contact me!
+Created by [Nathan Weekley](mailto:nweekley27@gmail.com) - feel free to contact me!
 
 
 ## License
