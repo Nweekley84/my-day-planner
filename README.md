@@ -1,7 +1,7 @@
-[![License: MIT](https://img.shields.io/badge/license-MIT-yellowgreen.svg)](https://opensource.org/licenses/MIT)
-![GitHub repo size](https://img.shields.io/github/repo-size/Nweekley84/my-day-planner)
+[![License: MIT](https://custom-icon-badges.demolab.com/badge/license-MIT-yellowgreen.svg?logo=law)](https://opensource.org/licenses/MIT)
+![GitHub repo size](https://custom-icon-badges.demolab.com/github/repo-size/Nweekley84/my-day-planner?logo=repo)
 ![GitHub top language](https://img.shields.io/github/languages/top/Nweekley84/my-day-planner?logo=javascript&logoColor=f5f5f5)
-![GitHub last commit](https://img.shields.io/github/last-commit/Nweekley84/my-day-planner)
+![GitHub last commit](https://custom-icon-badges.demolab.com/github/last-commit/Nweekley84/my-day-planner?logo=git-commit)
 # Nate's My Day Planner
 > Use starter code to complete a work day scheduler.
 > Must display current day at top of calendar.
@@ -32,9 +32,9 @@
 
 
 ## Technologies Used
-- [![Chrome Dev Tools 112.0.5615.121](https://img.shields.io/badge/Chrome-112.0.5615.121-blue?logo=googlechrome)](https://developer.chrome.com/tags/new-in-devtools/) 
-- [![VSCode 1.77.3](https://img.shields.io/badge/VSCode-1.77.3-blue?logo=visualstudiocode)](https://code.visualstudio.com/updates/v1_78)
-- [![macOS Mojave 10.14.6](https://img.shields.io/badge/Mojave-10.14.6-blue?logo=macos)](https://support.apple.com/kb/DL2011?locale=en_US) 
+- [![Chrome Dev Tools 112.0.5615.121](https://custom-icon-badges.demolab.com/badge/Chrome-112.0.5615.121-blue?logo=googlechrome)](https://developer.chrome.com/tags/new-in-devtools/) 
+- [![VSCode 1.77.3](https://custom-icon-badges.demolab.com/badge/VSCode-1.77.3-blue?logo=visualstudiocode)](https://code.visualstudio.com/updates/v1_78)
+- [![macOS Mojave 10.14.6](https://custom-icon-badges.demolab.com/badge/Mojave-10.14.6-blue?logo=macos)](https://support.apple.com/kb/DL2011?locale=en_US) 
 
 
 ## Features
@@ -57,7 +57,7 @@
 To organize your daily events for work.
 
 ## Project Status
-![project status](https://img.shields.io/badge/Completed-brightgreen)
+![project status](https://custom-icon-badges.demolab.com/badge/Completed-brightgreen?logo=check-circle-fill)
 
 ## Room for Improvement
 - Expand the day planner into a full week, month, or even a year.
@@ -69,10 +69,11 @@ To do:
 - This project was inspired by starter code provided via UCSD Full Stack Coding Bootcamp.
 
 ## Resources
-- [![MDN Web Docs](https://img.shields.io/badge/MDN&nbsp;Web&nbsp;Docs-grey?logo=mdnwebdocs&logoColor=blue)](https://developer.mozilla.org/en-US/)
-- [![Stackoverflow](https://img.shields.io/badge/Stack&nbsp;Overflow-grey?logo=stackoverflow&logoColor=orange)](https://stackoverflow.com/)
-- [![Google](https://img.shields.io/badge/Google-grey?logo=google&logoColor=green)](https://www.google.com/)
-- [![Youtube](https://img.shields.io/badge/Youtube-grey?logo=youtube&logoColor=red)](https://www.google.com/)
+- [![MDN Web Docs](https://custom-icon-badges.demolab.com/badge/MDN&nbsp;Web&nbsp;Docs-grey?logo=mdnwebdocs&logoColor=blue)](https://developer.mozilla.org/en-US/)
+- [![Stackoverflow](https://custom-icon-badges.demolab.com/badge/Stack&nbsp;Overflow-grey?logo=stackoverflow&logoColor=orange)](https://stackoverflow.com/)
+- [![Google](https://custom-icon-badges.demolab.com/badge/Google-grey?logo=google&logoColor=green)](https://www.google.com/)
+- [![Youtube](https://custom-icon-badges.demolab.com/badge/Youtube-grey?logo=youtube&logoColor=red)](https://www.google.com/)
+- [![ChatGPT](https://custom-icon-badges.demolab.com/badge/ChatGPT-grey?logo=openai&logoColor=pink)](https://openai.com/blog/chatgpt)
 
 ## <img src="https://icon-library.com/images/license-icon/license-icon-17.jpg" width="28"> License
 This project is [MIT](https://opensource.org/licenses/MIT) licensed. <br>© 2023 [Nathan Weekley](mailto:nweekley27@gmail.com) 
