@@ -18,7 +18,6 @@
 * [Technologies Used](#technologies-used)
 * [Features](#features)
 * [Screenshots](#screenshots)
-<!-- * [Setup](#setup) -->
 * [Usage](#usage)
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
@@ -29,8 +28,8 @@
 
 ## General Information
 - Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code.
-- Purpose is to put into practice local storage and more importantly play around with Day.js.
-- Undertaken because it utilizes what we learned in module 5, and lets us explore Day.js indepth.
+- Purpose is to put into practice local storage and more importantly play around with [Day.js](https://day.js.org/).
+- Undertaken because it utilizes what we learned in module 5, and lets us explore date and time features.
 
 
 ## Technologies Used
@@ -41,7 +40,7 @@
 
 ## Features
 - Upon page load, display the current Date in the header.
-- Use plugin script for Advanced Formatting in Day.js to display 1st, 2nd, 3rd, ect..
+- Use plugin script for Advanced Formatting in [Day.js](https://day.js.org/) to display 1st, 2nd, 3rd, ect..
 - Wrap everything in a document.ready function so DOM loads first.
 - Displays 8 time-blocks for standard work day 9am-5pm.
 - Dynamically display each block with color codes to reflect past/present/future using css/js.
@@ -53,22 +52,22 @@
 ## Screenshots
 ![Example screenshot 1](./assets/images/00ss.gif)
 
-<!-- ## Setup -->
-
 ## Usage
-To organize your daily events for work.
+To organize your daily events during a normal 9am-5pm work schedule and save those events to local storage.
 
 ## Project Status
-![project status](https://custom-icon-badges.demolab.com/badge/Completed-brightgreen?logo=check-circle-fill)
+![project status](https://custom-icon-badges.demolab.com/badge/Completed-grey?logo=check-circle-fill&logoColor=green)
 
 ## Room for Improvement
-- Expand the day planner into a full week, month, or even a year.
+- Possibly expand the day planner into a full week, month, or even a year.
+- Make it into a full day planner, not just the 8 working hours.
+- Add option to include "very important" events that trigger a email reminder 30 minutes prior to said important event.
 
 To do:
 - All required tasks completed.
 
 ## Acknowledgements
-- This project was inspired by starter code provided via UCSD Full Stack Coding Bootcamp.
+- This project was inspired by starter code provided via [UCSD Bootcamp Extension](https://bootcamp.extension.ucsd.edu/).
 
 ## Resources
 - [![MDN Web Docs](https://custom-icon-badges.demolab.com/badge/MDN&nbsp;Web&nbsp;Docs-black?logo=mdnwebdocs&logoColor=blue)](https://developer.mozilla.org/en-US/)
