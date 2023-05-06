@@ -10,7 +10,8 @@
 > Must be able to enter events.
 > Save buttons must store to local storage.
 > Must display saved local storage strings upon refresh.
-> Live demo [_here_](https://nweekley84.github.io/my-day-planner/).
+> Live demo: [![Here](https://custom-icon-badges.demolab.com/badge/Here-blue?logo=link)](https://nweekley84.github.io/my-day-planner/)
+<!--[_here_]().-->
 
 ## Table of Contents
 * [General Info](#general-information)
