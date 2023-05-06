@@ -18,12 +18,13 @@
 * [Technologies Used](#technologies-used)
 * [Features](#features)
 * [Screenshots](#screenshots)
-* [Setup](#setup)
+<!-- * [Setup](#setup) -->
 * [Usage](#usage)
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
-* [License](#license)
+* [Resources](#resources)
+* [License](#resources)
 
 
 ## General Information
@@ -70,11 +71,11 @@ To do:
 - This project was inspired by starter code provided via UCSD Full Stack Coding Bootcamp.
 
 ## Resources
-- [![MDN Web Docs](https://custom-icon-badges.demolab.com/badge/MDN&nbsp;Web&nbsp;Docs-grey?logo=mdnwebdocs&logoColor=blue)](https://developer.mozilla.org/en-US/)
-- [![Stackoverflow](https://custom-icon-badges.demolab.com/badge/Stack&nbsp;Overflow-grey?logo=stackoverflow&logoColor=orange)](https://stackoverflow.com/)
-- [![Google](https://custom-icon-badges.demolab.com/badge/Google-grey?logo=google&logoColor=green)](https://www.google.com/)
-- [![Youtube](https://custom-icon-badges.demolab.com/badge/Youtube-grey?logo=youtube&logoColor=red)](https://www.google.com/)
-- [![ChatGPT](https://custom-icon-badges.demolab.com/badge/ChatGPT-grey?logo=openai&logoColor=pink)](https://openai.com/blog/chatgpt)
+- [![MDN Web Docs](https://custom-icon-badges.demolab.com/badge/MDN&nbsp;Web&nbsp;Docs-black?logo=mdnwebdocs&logoColor=blue)](https://developer.mozilla.org/en-US/)
+- [![Stackoverflow](https://custom-icon-badges.demolab.com/badge/Stack&nbsp;Overflow-black?logo=stackoverflow&logoColor=orange)](https://stackoverflow.com/)
+- [![Google](https://custom-icon-badges.demolab.com/badge/Google-black?logo=google&logoColor=red)](https://www.google.com/)
+- [![Youtube](https://custom-icon-badges.demolab.com/badge/Youtube-black?logo=video&logoColor=red)](https://www.youtube.com/)
+- [![ChatGPT](https://custom-icon-badges.demolab.com/badge/ChatGPT-black?logo=openai&logoColor=white)](https://openai.com/blog/chatgpt)
 
 ## <img src="https://icon-library.com/images/license-icon/license-icon-17.jpg" width="28"> License
 This project is [MIT](https://opensource.org/licenses/MIT) licensed. <br>© 2023 [Nathan Weekley](mailto:nweekley27@gmail.com) 
